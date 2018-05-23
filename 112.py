@@ -1,11 +1,11 @@
-a= int(input("size"))
-e= int(input("compare"))
-b=[]
-for i in range(0,a):
-  c=int(input(""))
-  b.append(c)
-for i in b :
-  if(i==e):
-    print("yes")
-  else:
-    print("no")
+n,k=map(int,input("N and K").split(' '))
+a=[]
+for i in range(0,n):
+ b=int(input("numbers"))
+ a.append(b)
+for i in a:
+  if (i == k):
+    print("yess")
+    break
+else:
+    print("noo")  
